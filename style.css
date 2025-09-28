@@ -1,0 +1,123 @@
+
+@media (min-width: 900px) {
+    body {
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+        min-height: 100vh;
+        background-color: blueviolet;
+    }
+    .container-desktop {
+        display: flex;
+        gap: 40px;
+        margin-top: 60px;
+    }
+    .quiz, .joke-section {
+        background: #fff;
+        border-radius: 10px;
+        box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+        padding: 30px 24px;
+        min-width: 340px;
+        max-width: 400px;
+    }
+    .joke-section {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
+        min-height: 220px;
+    }
+    #getJokeBtn {
+        margin-bottom: 20px;
+        padding: 10px 24px;
+        font-size: 1em;
+        border-radius: 6px;
+        border: none;
+        background: #222;
+        color: #fff;
+        cursor: pointer;
+        transition: background 0.2s;
+    }
+    #getJokeBtn:hover {
+        background: #444;
+    }
+    #jokeDisplay {
+        font-size: 1.1em;
+        color: #222;
+        text-align: center;
+        margin-top: 10px;
+        min-height: 40px;
+    }
+}
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+body{
+    background-color: blueviolet;
+}
+.app{
+    width: 90%;
+    max-width: 600px;
+    background-color: white;
+    margin: 100px auto 0;
+    padding: 30px;
+    border-radius: 10px;
+    
+}
+.app h1{
+   font-size: 25px;
+   color: cadetblue;
+   font-weight: 600;
+   border-bottom: 1px solid #333;
+   padding-bottom: 30px;
+}
+   .quiz{
+    padding: 20px 0;
+   }
+   .quiz h2{
+    font-size: 18px;
+    color: #001e4d;
+    font-weight: 600;
+   } 
+   .btn{
+    background: #fff;
+    color: #222;
+    font-weight: 500;
+    width: 100%;
+    border: 1px solid #222;
+    padding: 10px;
+    margin: 10px 0;
+    text-align: left;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: all 0.3s ;
+   }
+   .btn:hover:not([disabled]){
+    background-color: #222;
+    color: #fff;
+   }
+    .btn:disabled{
+     cursor: no-drop;
+    }
+   #next-btn{
+    background-color : #222;
+    color: #fff;
+    font-weight: 500;
+    width: 150px;
+    border: 0;
+    padding: 10px;
+    margin: 20px auto 0;
+    border-radius: 4px;
+    cursor: pointer;
+    display: block;
+   }
+   .correct{
+    background-color: lightgreen;
+   }
+   .incorrect{
+    background-color: lightcoral;
+   }
+   
